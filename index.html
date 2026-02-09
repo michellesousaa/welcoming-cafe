@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Welcoming Cafe - A cozy neighborhood coffee shop serving artisan coffee, fresh pastries, and warm hospitality in the heart of downtown.">
+  <title>The Welcoming Cafe | Artisan Coffee & Community</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <img src="logo.svg" alt="The Welcoming Cafe logo">
+        </div>
+        <span class="logo-text">The Welcoming Cafe</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <p class="hero-tagline">Est. 2015 | Downtown Portland</p>
+      <h1>Where Every Cup Feels Like Home</h1>
+      <p>Step into warmth, savor handcrafted coffee, and find your favorite corner in our cozy neighborhood cafe.</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+        <a href="contact.html" class="btn btn-outline">Visit Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why <span class="accent">Our Neighbors</span> Love Us</h2>
+        <p>More than just coffee. We're a gathering place for the community.</p>
+      </div>
+      <div class="features-grid">
+        <div class="card feature-card">
+          <div class="feature-icon">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=200&h=200&fit=crop&q=80" alt="Artisan coffee">
+          </div>
+          <h3>Artisan Coffee</h3>
+          <p>Every cup is crafted with care using locally roasted beans, sourced from sustainable farms around the world.</p>
+        </div>
+        <div class="card feature-card">
+          <div class="feature-icon">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&h=200&fit=crop&q=80" alt="Fresh pastries">
+          </div>
+          <h3>Fresh Pastries</h3>
+          <p>Baked in-house daily. From buttery croissants to decadent brownies, our treats pair perfectly with your favorite brew.</p>
+        </div>
+        <div class="card feature-card">
+          <div class="feature-icon">
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=200&h=200&fit=crop&q=80" alt="Cozy cafe interior">
+          </div>
+          <h3>Cozy Atmosphere</h3>
+          <p>Settle into our comfortable seating, enjoy free Wi-Fi, and stay as long as you like. This is your home away from home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview Section -->
+  <section>
+    <div class="container">
+      <div class="about-preview">
+        <div class="about-image">
+          <img src="public/images/about-hero.jpg" alt="Barista preparing coffee">
+        </div>
+        <div class="about-content">
+          <h2>Our Story Began With a Simple Dream</h2>
+          <p>In 2015, founders Maya and Tom Chen transformed a forgotten corner space into what is now Portland's most beloved neighborhood cafe. What started as a passion project has grown into a community hub.</p>
+          <p>We believe that great coffee should be accessible to everyone, served in a space that feels like an extension of your living room. That's why we've created multiple seating areas, from quiet reading nooks to communal tables perfect for catching up with friends.</p>
+          <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Preview Section -->
+  <section style="background-color: var(--color-warm-white);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Customer <span class="accent">Favorites</span></h2>
+        <p>The drinks and treats our regulars can't stop ordering.</p>
+      </div>
+      <div class="favorites-grid">
+        <div class="favorite-card">
+          <div class="favorite-card-image">
+            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=600&h=400&fit=crop&q=80" alt="Honey Lavender Latte with purple lavender garnish">
+          </div>
+          <div class="favorite-card-content">
+            <div class="favorite-card-header">
+              <h4>Honey Lavender Latte</h4>
+              <span class="price">$5.75</span>
+            </div>
+            <p>Espresso with steamed oat milk, local honey, and a hint of culinary lavender</p>
+          </div>
+        </div>
+        <div class="favorite-card">
+          <div class="favorite-card-image">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=400&fit=crop&q=80" alt="Classic pour over coffee being prepared">
+          </div>
+          <div class="favorite-card-content">
+            <div class="favorite-card-header">
+              <h4>Classic Pour Over</h4>
+              <span class="price">$4.50</span>
+            </div>
+            <p>Single-origin beans, hand-poured to order. Ask about today's selection.</p>
+          </div>
+        </div>
+        <div class="favorite-card">
+          <div class="favorite-card-image">
+            <img src="public/images/maple-pecan-scone.jpg" alt="Fresh baked maple pecan scone with glaze">
+          </div>
+          <div class="favorite-card-content">
+            <div class="favorite-card-header">
+              <h4>Maple Pecan Scone</h4>
+              <span class="price">$4.25</span>
+            </div>
+            <p>Buttery, flaky, studded with toasted pecans and drizzled with maple glaze</p>
+          </div>
+        </div>
+        <div class="favorite-card">
+          <div class="favorite-card-image">
+            <img src="https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=600&h=400&fit=crop&q=80" alt="Avocado toast on sourdough with microgreens">
+          </div>
+          <div class="favorite-card-content">
+            <div class="favorite-card-header">
+              <h4>Avocado Toast</h4>
+              <span class="price">$9.50</span>
+            </div>
+            <p>Sourdough from local bakery, smashed avocado, everything seasoning, microgreens</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 2.5rem;">
+        <a href="menu.html" class="btn btn-primary">See Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Come Say Hello</h2>
+      <p>We're open seven days a week and always happy to see a friendly face.</p>
+      <a href="contact.html" class="btn btn-outline">Get Directions</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">
+              <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=100&h=100&fit=crop&q=80" alt="Coffee cup logo">
+            </div>
+            <span class="logo-text" style="color: var(--color-cream);">The Welcoming Cafe</span>
+          </div>
+          <p>A cozy neighborhood coffee shop where every cup is crafted with care and every guest is treated like family.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Hours</h4>
+          <ul>
+            <li>Mon-Fri: 6:30am - 7pm</li>
+            <li>Saturday: 7am - 8pm</li>
+            <li>Sunday: 7am - 6pm</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <ul>
+            <li>128 Oak Street</li>
+            <li>Portland, OR 97204</li>
+            <li>(503) 555-0172</li>
+          </ul>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 The Welcoming Cafe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+      });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+      }
+    });
+  </script>
+</body>
+</html>

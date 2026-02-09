@@ -1,0 +1,17 @@
+{
+  "name": "welcoming-cafe",
+  "version": "1.0.0",
+  "description": "The Welcoming Café - A cozy neighborhood coffee shop website",
+  "scripts": {
+    "build": "npm run clean && npm run build:css && npm run build:html && npm run build:svg",
+    "clean": "rm -rf dist && mkdir -p dist",
+    "build:css": "npx clean-css-cli -o dist/styles.css styles.css",
+    "build:html": "npx html-minifier-terser --collapse-whitespace --remove-comments --minify-css true --minify-js true -o dist/index.html index.html && npx html-minifier-terser --collapse-whitespace --remove-comments --minify-css true --minify-js true -o dist/about.html about.html && npx html-minifier-terser --collapse-whitespace --remove-comments --minify-css true --minify-js true -o dist/menu.html menu.html && npx html-minifier-terser --collapse-whitespace --remove-comments --minify-css true --minify-js true -o dist/contact.html contact.html",
+    "build:svg": "cp logo.svg dist/",
+    "serve": "npx serve dist",
+    "serve:dev": "npx serve ."
+  },
+  "keywords": ["cafe", "coffee", "static-site"],
+  "author": "",
+  "license": "MIT"
+}

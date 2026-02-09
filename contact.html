@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact The Welcoming Cafe. Find our location, hours, and get in touch with us for catering inquiries or feedback.">
+  <title>Contact Us | The Welcoming Cafe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <img src="logo.svg" alt="The Welcoming Cafe logo">
+        </div>
+        <span class="logo-text">The Welcoming Cafe</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Get In Touch</h1>
+      <p>We'd love to hear from you</p>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h2 style="margin-bottom: 1.5rem;">Send Us a Message</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Jane Smith">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="jane@example.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a topic...</option>
+                <option value="general">General Inquiry</option>
+                <option value="catering">Catering Request</option>
+                <option value="feedback">Feedback</option>
+                <option value="events">Private Events</option>
+                <option value="careers">Career Opportunities</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <div class="contact-info-card">
+            <h2 style="margin-bottom: 2rem;">Visit Us</h2>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>128 Oak Street<br>Portland, OR 97204</p>
+                <p style="margin-top: 0.5rem;"><a href="#" style="color: var(--color-caramel); font-weight: 500;">Get Directions</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p>(503) 555-0172</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>hello@welcomingcafe.com</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div>
+                <h4>Hours</h4>
+                <table class="hours-table">
+                  <tr>
+                    <td>Monday - Friday</td>
+                    <td>6:30am - 7:00pm</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday</td>
+                    <td>7:00am - 8:00pm</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday</td>
+                    <td>7:00am - 6:00pm</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional Info -->
+          <div class="contact-info-card" style="margin-top: 1.5rem;">
+            <h3 style="margin-bottom: 1rem;">Good to Know</h3>
+            <ul style="color: var(--color-text-light);">
+              <li style="margin-bottom: 0.75rem;"><strong style="color: var(--color-text);">Parking:</strong> Street parking available. Free after 6pm and on weekends.</li>
+              <li style="margin-bottom: 0.75rem;"><strong style="color: var(--color-text);">Transit:</strong> Two blocks from the Oak Street MAX station (Blue and Red lines).</li>
+              <li style="margin-bottom: 0.75rem;"><strong style="color: var(--color-text);">Accessibility:</strong> Wheelchair accessible entrance and restroom.</li>
+              <li><strong style="color: var(--color-text);">Wi-Fi:</strong> Free high-speed Wi-Fi for all customers.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catering CTA -->
+  <section style="background-color: var(--color-warm-white);">
+    <div class="container">
+      <div class="about-preview">
+        <div class="about-content">
+          <h2>Catering & Private Events</h2>
+          <p>Planning a meeting, celebration, or special event? We'd love to help make it memorable with our coffee and pastries.</p>
+          <p>We offer catering for groups of 10 to 100, including our full coffee bar experience with professional baristas on-site. We can also host private events in our cafe during select hours.</p>
+          <p><strong>Popular packages include:</strong></p>
+          <ul style="margin-bottom: 1.5rem; color: var(--color-text-light);">
+            <li style="margin-bottom: 0.5rem;">Coffee service with pastry assortment</li>
+            <li style="margin-bottom: 0.5rem;">Breakfast catering with full beverage bar</li>
+            <li style="margin-bottom: 0.5rem;">Private cafe rental for special occasions</li>
+          </ul>
+          <p>Contact us to discuss your needs and get a custom quote.</p>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=800&fit=crop&q=80" alt="Catering spread with coffee and pastries">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently Asked <span class="accent">Questions</span></h2>
+      </div>
+      <div class="menu-grid">
+        <div class="card" style="padding: 1.5rem;">
+          <h4 style="margin-bottom: 0.75rem;">Do you take reservations?</h4>
+          <p style="color: var(--color-text-light); margin: 0;">We operate on a first-come, first-served basis for regular visits. For private events or large groups (8+), please contact us in advance.</p>
+        </div>
+        <div class="card" style="padding: 1.5rem;">
+          <h4 style="margin-bottom: 0.75rem;">Do you sell whole bean coffee?</h4>
+          <p style="color: var(--color-text-light); margin: 0;">Yes! We sell bags of our house blend and rotating single-origin selections. Ask your barista about current offerings.</p>
+        </div>
+        <div class="card" style="padding: 1.5rem;">
+          <h4 style="margin-bottom: 0.75rem;">Are you pet-friendly?</h4>
+          <p style="color: var(--color-text-light); margin: 0;">Well-behaved dogs are welcome on our outdoor patio. We even have water bowls and the occasional dog treat!</p>
+        </div>
+        <div class="card" style="padding: 1.5rem;">
+          <h4 style="margin-bottom: 0.75rem;">Do you have gluten-free options?</h4>
+          <p style="color: var(--color-text-light); margin: 0;">We offer several gluten-free pastries daily. Please let us know about any allergies when ordering.</p>
+        </div>
+        <div class="card" style="padding: 1.5rem;">
+          <h4 style="margin-bottom: 0.75rem;">Can I work from the cafe?</h4>
+          <p style="color: var(--color-text-light); margin: 0;">Absolutely! We have plenty of outlets, fast Wi-Fi, and a welcoming atmosphere for remote workers and students.</p>
+        </div>
+        <div class="card" style="padding: 1.5rem;">
+          <h4 style="margin-bottom: 0.75rem;">Do you have a loyalty program?</h4>
+          <p style="color: var(--color-text-light); margin: 0;">Yes! Pick up a punch card at the register. Every 10th drink is free.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">
+              <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=100&h=100&fit=crop&q=80" alt="Coffee cup logo">
+            </div>
+            <span class="logo-text" style="color: var(--color-cream);">The Welcoming Cafe</span>
+          </div>
+          <p>A cozy neighborhood coffee shop where every cup is crafted with care and every guest is treated like family.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Hours</h4>
+          <ul>
+            <li>Mon-Fri: 6:30am - 7pm</li>
+            <li>Saturday: 7am - 8pm</li>
+            <li>Sunday: 7am - 6pm</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <ul>
+            <li>128 Oak Street</li>
+            <li>Portland, OR 97204</li>
+            <li>(503) 555-0172</li>
+          </ul>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 The Welcoming Cafe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+      });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+      }
+    });
+
+    // Form submission handling
+    const contactForm = document.getElementById('contactForm');
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      // Get form data
+      const formData = new FormData(contactForm);
+      const data = Object.fromEntries(formData);
+
+      // In a real application, you would send this to a server
+      // For now, show a success message
+      alert('Thank you for your message! We\'ll get back to you within 24 hours.');
+      contactForm.reset();
+    });
+  </script>
+</body>
+</html>
