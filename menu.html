@@ -43,6 +43,16 @@
   <section>
     <div class="container">
 
+      <!-- Filter Bar -->
+      <div class="menu-categories">
+        <button class="menu-category-btn active" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="menu-category-btn" type="button" data-filter="coffee" aria-pressed="false">Coffee</button>
+        <button class="menu-category-btn" type="button" data-filter="signature" aria-pressed="false">Signature</button>
+        <button class="menu-category-btn" type="button" data-filter="tea" aria-pressed="false">Tea</button>
+        <button class="menu-category-btn" type="button" data-filter="pastries" aria-pressed="false">Pastries</button>
+        <button class="menu-category-btn" type="button" data-filter="food" aria-pressed="false">Light Fare</button>
+      </div>
+
       <!-- Coffee Section -->
       <div class="menu-section">
         <h3>
@@ -52,70 +62,70 @@
           Coffee & Espresso
         </h3>
         <div class="menu-grid">
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Drip Coffee</h4>
               <p>House blend, smooth and balanced. Refills $1</p>
             </div>
             <span class="menu-item-price">$3.25</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Pour Over</h4>
               <p>Single-origin, hand-poured. Ask about today's selection</p>
             </div>
             <span class="menu-item-price">$4.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Espresso</h4>
               <p>Double shot of our signature blend</p>
             </div>
             <span class="menu-item-price">$3.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Americano</h4>
               <p>Espresso with hot water. Bold and smooth</p>
             </div>
             <span class="menu-item-price">$3.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Cappuccino</h4>
               <p>Equal parts espresso, steamed milk, and foam</p>
             </div>
             <span class="menu-item-price">$4.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Latte</h4>
               <p>Espresso with silky steamed milk. Add flavor +$0.75</p>
             </div>
             <span class="menu-item-price">$5.25</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Flat White</h4>
               <p>Ristretto shots with velvety microfoam</p>
             </div>
             <span class="menu-item-price">$5.00</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Mocha</h4>
               <p>Espresso, house-made chocolate, steamed milk, whipped cream</p>
             </div>
             <span class="menu-item-price">$5.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Cold Brew</h4>
               <p>Steeped 18 hours for a smooth, rich flavor</p>
             </div>
             <span class="menu-item-price">$4.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="coffee">
             <div class="menu-item-info">
               <h4>Nitro Cold Brew</h4>
               <p>Nitrogen-infused for a creamy, cascading pour</p>
@@ -134,42 +144,42 @@
           Signature Drinks
         </h3>
         <div class="menu-grid">
-          <div class="menu-item">
+          <div class="menu-item" data-category="signature">
             <div class="menu-item-info">
               <h4>Honey Lavender Latte</h4>
               <p>Espresso, oat milk, local honey, culinary lavender</p>
             </div>
             <span class="menu-item-price">$5.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="signature">
             <div class="menu-item-info">
               <h4>Brown Sugar Oat Latte</h4>
               <p>Espresso, oat milk, house-made brown sugar syrup, cinnamon</p>
             </div>
             <span class="menu-item-price">$5.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="signature">
             <div class="menu-item-info">
               <h4>Maple Cinnamon Cortado</h4>
               <p>Double espresso, maple syrup, steamed milk, cinnamon dust</p>
             </div>
             <span class="menu-item-price">$5.25</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="signature">
             <div class="menu-item-info">
               <h4>Spiced Chai Latte</h4>
               <p>House-made chai concentrate with steamed milk</p>
             </div>
             <span class="menu-item-price">$5.25</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="signature">
             <div class="menu-item-info">
               <h4>Golden Turmeric Latte</h4>
               <p>Turmeric, ginger, honey, black pepper, oat milk</p>
             </div>
             <span class="menu-item-price">$5.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="signature">
             <div class="menu-item-info">
               <h4>Matcha Latte</h4>
               <p>Ceremonial grade matcha whisked with your choice of milk</p>
@@ -188,42 +198,42 @@
           Tea
         </h3>
         <div class="menu-grid">
-          <div class="menu-item">
+          <div class="menu-item" data-category="tea">
             <div class="menu-item-info">
               <h4>Earl Grey</h4>
               <p>Classic bergamot-scented black tea</p>
             </div>
             <span class="menu-item-price">$3.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="tea">
             <div class="menu-item-info">
               <h4>English Breakfast</h4>
               <p>Robust and malty. Perfect with milk</p>
             </div>
             <span class="menu-item-price">$3.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="tea">
             <div class="menu-item-info">
               <h4>Green Jasmine</h4>
               <p>Delicate green tea scented with jasmine blossoms</p>
             </div>
             <span class="menu-item-price">$3.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="tea">
             <div class="menu-item-info">
               <h4>Peppermint</h4>
               <p>Refreshing and naturally caffeine-free</p>
             </div>
             <span class="menu-item-price">$3.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="tea">
             <div class="menu-item-info">
               <h4>Chamomile Honey</h4>
               <p>Soothing chamomile with local honey</p>
             </div>
             <span class="menu-item-price">$3.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="tea">
             <div class="menu-item-info">
               <h4>London Fog</h4>
               <p>Earl Grey latte with vanilla and steamed milk</p>
@@ -242,56 +252,56 @@
           Fresh Pastries
         </h3>
         <div class="menu-grid">
-          <div class="menu-item">
+          <div class="menu-item" data-category="pastries">
             <div class="menu-item-info">
               <h4>Butter Croissant</h4>
               <p>Flaky, buttery, baked fresh each morning</p>
             </div>
             <span class="menu-item-price">$4.00</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="pastries">
             <div class="menu-item-info">
               <h4>Almond Croissant</h4>
               <p>Filled with almond cream, topped with sliced almonds</p>
             </div>
             <span class="menu-item-price">$4.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="pastries">
             <div class="menu-item-info">
               <h4>Chocolate Croissant</h4>
               <p>Dark chocolate batons wrapped in buttery layers</p>
             </div>
             <span class="menu-item-price">$4.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="pastries">
             <div class="menu-item-info">
               <h4>Maple Pecan Scone</h4>
               <p>Buttery scone with pecans and maple glaze</p>
             </div>
             <span class="menu-item-price">$4.25</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="pastries">
             <div class="menu-item-info">
               <h4>Blueberry Muffin</h4>
               <p>Bursting with fresh blueberries, streusel topping</p>
             </div>
             <span class="menu-item-price">$3.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="pastries">
             <div class="menu-item-info">
               <h4>Cinnamon Roll</h4>
               <p>Soft, swirled with cinnamon, cream cheese frosting</p>
             </div>
             <span class="menu-item-price">$4.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="pastries">
             <div class="menu-item-info">
               <h4>Banana Bread</h4>
               <p>Moist, studded with walnuts, lightly spiced</p>
             </div>
             <span class="menu-item-price">$3.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="pastries">
             <div class="menu-item-info">
               <h4>Double Chocolate Brownie</h4>
               <p>Rich, fudgy, topped with sea salt flakes</p>
@@ -310,42 +320,42 @@
           Light Fare
         </h3>
         <div class="menu-grid">
-          <div class="menu-item">
+          <div class="menu-item" data-category="food">
             <div class="menu-item-info">
               <h4>Avocado Toast</h4>
               <p>Local sourdough, smashed avocado, everything seasoning, microgreens</p>
             </div>
             <span class="menu-item-price">$9.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="food">
             <div class="menu-item-info">
               <h4>Breakfast Sandwich</h4>
               <p>Egg, cheddar, bacon or sausage on a brioche bun</p>
             </div>
             <span class="menu-item-price">$8.75</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="food">
             <div class="menu-item-info">
               <h4>Veggie Breakfast Wrap</h4>
               <p>Scrambled eggs, spinach, tomato, feta, whole wheat wrap</p>
             </div>
             <span class="menu-item-price">$8.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="food">
             <div class="menu-item-info">
               <h4>Overnight Oats</h4>
               <p>Rolled oats, almond milk, chia, seasonal fruit, honey</p>
             </div>
             <span class="menu-item-price">$6.50</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="food">
             <div class="menu-item-info">
               <h4>Yogurt Parfait</h4>
               <p>Greek yogurt, house granola, fresh berries, local honey</p>
             </div>
             <span class="menu-item-price">$7.25</span>
           </div>
-          <div class="menu-item">
+          <div class="menu-item" data-category="food">
             <div class="menu-item-info">
               <h4>Caprese Sandwich</h4>
               <p>Fresh mozzarella, tomato, basil, balsamic on ciabatta</p>
@@ -430,6 +440,19 @@
     </div>
   </footer>
 
+  <!-- Menu Item Modal -->
+  <div class="modal-overlay" id="menuModal">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-item-name" tabindex="-1">
+      <div class="modal-image-placeholder"></div>
+      <button class="modal-close" type="button" aria-label="Close">&#215;</button>
+      <div class="modal-body">
+        <h2 class="modal-item-name" id="modal-item-name"></h2>
+        <p class="modal-item-desc"></p>
+        <span class="modal-item-price"></span>
+      </div>
+    </div>
+  </div>
+
   <script>
     // Mobile menu toggle
     const menuToggle = document.querySelector('.menu-toggle');
@@ -454,6 +477,92 @@
         menuToggle.classList.remove('active');
         navLinks.classList.remove('active');
       }
+    });
+
+    // Menu category filter
+    const filterBtns = document.querySelectorAll('.menu-category-btn');
+    const menuItems = document.querySelectorAll('.menu-item');
+    const menuSections = document.querySelectorAll('.menu-section');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+
+        // Update button states
+        filterBtns.forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+
+        // Show/hide individual items
+        menuItems.forEach(item => {
+          item.style.display = (filter === 'all' || item.dataset.category === filter) ? '' : 'none';
+        });
+
+        // Hide sections whose items are all filtered out
+        menuSections.forEach(section => {
+          const hasVisible = Array.from(section.querySelectorAll('.menu-item'))
+            .some(item => filter === 'all' || item.dataset.category === filter);
+          section.style.display = hasVisible ? '' : 'none';
+        });
+      });
+    });
+
+    // Modal
+    const overlay     = document.getElementById('menuModal');
+    const modalDialog = overlay.querySelector('.modal-dialog');
+    const modalName   = overlay.querySelector('.modal-item-name');
+    const modalDesc   = overlay.querySelector('.modal-item-desc');
+    const modalPrice  = overlay.querySelector('.modal-item-price');
+    const bgContent   = document.querySelectorAll('body > *:not(#menuModal):not(script)');
+    const modalClose  = overlay.querySelector('.modal-close');
+    let lastFocused   = null;
+
+    function openModal(item) {
+      lastFocused = document.activeElement;
+
+      modalName.textContent  = item.querySelector('h4')?.textContent ?? '';
+      modalDesc.textContent  = item.querySelector('.menu-item-info p')?.textContent ?? '';
+      modalPrice.textContent = item.querySelector('.menu-item-price')?.textContent ?? '';
+
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      bgContent.forEach(el => el.setAttribute('aria-hidden', 'true'));
+      modalDialog.focus();
+    }
+
+    function closeModal() {
+      if (!overlay.classList.contains('active')) return;
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+      bgContent.forEach(el => el.removeAttribute('aria-hidden'));
+      if (lastFocused) lastFocused.focus();
+      lastFocused = null;
+    }
+
+    // Close: × button
+    modalClose.addEventListener('click', closeModal);
+
+    // Close: backdrop click (overlay itself, not the dialog inside it)
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeModal();
+    });
+
+    // Close: Escape key — focus trap: Tab stays inside modal
+    document.addEventListener('keydown', (e) => {
+      if (!overlay.classList.contains('active')) return;
+      if (e.key === 'Escape') {
+        closeModal();
+      } else if (e.key === 'Tab') {
+        e.preventDefault();
+        modalClose.focus();
+      }
+    });
+
+    menuItems.forEach(item => {
+      item.addEventListener('click', () => openModal(item));
     });
   </script>
 </body>
